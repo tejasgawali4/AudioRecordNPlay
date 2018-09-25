@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorPrimary"
+  tools:context=".MainActivity">
+
+  <ImageView
+    android:id="@+id/logo"
+    android:layout_width="match_parent"
+    android:layout_height="114dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/icono"
+    android:padding="20dp"/>
+
+  <Button
+    android:id="@+id/question"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="182dp"
+    android:text="Question"
+    android:textSize="20sp" />
+
+  <Button
+    android:id="@+id/record"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="204dp"
+    android:text="Record"
+    android:textSize="20sp" />
+
+  <Button
+    android:id="@+id/stop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="126dp"
+    android:text="Stop"
+    android:textSize="20sp" />
+
+  <Button
+    android:id="@+id/play"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="40dp"
+    android:text="Play"
+    android:textSize="20sp" />
+
+
+</RelativeLayout>
